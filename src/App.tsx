@@ -21,6 +21,7 @@ function App() {
 
   return (
     <Grid
+      width={"100%"}
       templateAreas={{
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
